@@ -9,9 +9,9 @@ Conhecendo a sintaxe e a estrutura básica do Javascript com Diego Fernandes, Ro
 [x] Funções;
 [x] Condicionais;
 [x] Operadores lógicos;
-[] Condição ternária;
-[] Estruturas de repetição;
-[] Intervalo e timeout;
+[x] Condição ternária;
+[x] Estruturas de repetição;
+[x] Intervalo e timeout;
 
 # 2 Manipulando a DOM
 [] Eventos inline;
