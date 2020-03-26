@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            // AND, OR, NOT
+
+            var sexo = 'M', idade = 18;
+            var maior = (idade>=18);    // variável recebe true ou false
+
+            if (sexo === 'M' && idade >= 18 ) {
+                maior = true;                         // armazenando o valor do teste numa variável
+                console.log('Homem e maior de idade');
+            }
+            if (sexo === 'M' || idade >= 18 ) {
+                console.log('Ou homem ou maior de idade');
+            }
+            if (sexo !== 'M' && idade < 18 ) {
+                console.log('Nem homem nem maior de idade');
+            }
+            console.log(maior);
+        </script>
+    </body>
+</html>

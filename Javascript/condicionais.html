@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            function retornaSexo(sexo) {
+               // M, F
+               // Masculino, Feminino
+               if (sexo === 'M') { // === testa o tipo e o valor da variável
+                   return 'Masculino'
+               } else if (sexo === 'F') {
+                   return 'Feminio'
+               } // omitindo o 'else {return}'
+               return 'Outro' // caso else
+            }
+
+            function escolherCedulas(opcao) {
+                // switch case com Javascript
+                switch (opcao) {
+                    case 1:
+                        return 'Uma cédula de R$100';
+                    case 2:
+                        return 'Duas cédulas de R$50';
+                    case 3:
+                        return 'Cinco cédulas de R$20';
+                    default:
+                        return 'Saldo insuficiente';
+                }
+            }
+
+            var resultado = retornaSexo('O');
+            console.log(resultado);
+
+            var qtdCedulas = escolherCedulas(0);
+            console.log(qtdCedulas);
+        </script>
+    </body>
+</html>
