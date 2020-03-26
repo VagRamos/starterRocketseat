@@ -1,8 +1,3 @@
-# Estudo de Javascript
-# Curso Rocketseat
-
-Conhecendo a sintaxe e a estrutura básica do Javascript com Diego Fernandes, Rocketseat:
-
 # 1 Introdução ao Javascript
 [x] Ambiente VS Code;
 [x] Variáveis e dados;
